@@ -1,6 +1,0 @@
-n = int(input())
-for i in range(n):
-    x, y = [int(x) for x in input().split()]
-    for _ in range(y):
-        x += x
-    print(x)
